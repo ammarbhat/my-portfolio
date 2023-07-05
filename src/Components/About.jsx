@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 function About() {
   return (
     <>
-    <motion.div className=' w-full h-screen text-6xl text-left md:p-48 sm:20 p-12 pt-36 font-medium text-gray-800 '
+    <motion.div className=' w-full h-screen text-6xl text-left md:p-48 sm:20 p-12 pt-36 font-medium text-gray-800'
      animate={{opacity: 1}}
      initial={{opacity: 0}}
      transition={{duration: 1}}

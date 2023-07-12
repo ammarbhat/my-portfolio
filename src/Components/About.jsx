@@ -15,7 +15,7 @@ function About() {
 
       </motion.div>
       <div className='w-auto  flex flex-col items-center overflow-hidden'>
-        <motion.div className='text-gray-700  mx-20 bg-white rounded-xl w-96 sm:w-auto border-2 p-10'
+        <motion.div className='text-gray-700  mx-20 bg-white rounded-xl w-86 sm:w-auto border-2 p-10'
           whileInView={{ opacity: 1 }}
           initial={{ opacity: 0 }}
           transition={{ duration: 1 }}

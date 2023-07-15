@@ -22,17 +22,17 @@ function About() {
         >I'm an accomplished web developer proficient in a range of technologies. With expertise in HTML, CSS, and JavaScript, I have the foundation to build stylish and interactive web pages. I also specialize in React, a powerful library that enables me to create dynamic and scalable applications. To enhance user experiences, I utilize Tailwind CSS, a utility-first framework known for its flexibility and rapid development capabilities. Additionally, I incorporate Framer Motion to bring websites to life through captivating animations. I'm passionate about crafting visually appealing and functional websites that leave a lasting impression. Let's collaborate and bring your digital vision to reality!</motion.div>
         <motion.div className='  rounded-xl border-2 mx-20 mt-12 bg-white flex w-auto flex-wrap sm:flex-row items-center justify-center'
           whileInView={{ x: 0 }}
-          initial={{ x: 100 }}
-          transition={{ duration: 0.5 }}
+          initial={{ x: 150 }}
+          transition={{ duration: 1 }}
         >
-          <img src="./html.png" className='w-20 h-20 p-3' />
-          <img src="./css.png" className='w-16 h-16 bg-white p-3' />
-          <img src="./js.png" className='w-16 h-16 p-3 rounded-xl' />
-          <img src="./react.png" className='w-18 h-16 p-3' />
-          <img src="./tailwind.png" className='w-18 h-16 p-3' />
-          <img src="./git.png" className='w-18 h-16 p-3' />
-          <img src="./github.png" className='w-18 h-16 p-3' />
-          <img src="./framermotion.png" className='w-18 h-16 p-3' />
+          <img src="./html.png" className='w-20 h-20 p-3 select-none' />
+          <img src="./css.png" className='w-16 h-16 bg-white p-3 select-none' />
+          <img src="./js.png" className='w-16 h-16 p-3 rounded-xl select-none' />
+          <img src="./react.png" className='w-18 h-16 p-3 select-none' />
+          <img src="./tailwind.png" className='w-18 h-16 p-3 select-none' />
+          <img src="./git.png" className='w-18 h-16 p-3 select-none' />
+          <img src="./github.png" className='w-18 h-16 p-3 select-none' />
+          <img src="./framermotion.png" className='w-18 h-16 p-3 select-none' />
         </motion.div>
       </div>
 

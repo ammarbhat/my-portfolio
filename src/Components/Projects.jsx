@@ -10,7 +10,7 @@ function Projects() {
       <a href="https://nothing-byammar.netlify.app/" target='blank_' className='overflow-hidden'
   
    >
-   <motion.div className='border-2 rounded-xl sm:w-96 w-72 p-4 sm:mx-20 my-20'
+   <motion.div className='border-2 rounded-xl sm:w-96 w-72 p-4 sm:mx-20 my-20 select-none'
    style={{
     height: "320px"
    }}
@@ -31,7 +31,7 @@ function Projects() {
    <a href="https://alam-byammar.netlify.app/" target='blank_' className='overflow-hidden'
   
    >
-   <motion.div className='border-2 rounded-xl sm:w-96 w-72 p-4 sm:mx-20 my-20'
+   <motion.div className='border-2 rounded-xl sm:w-96 w-72 p-4 sm:mx-20 my-20 select-none'
    style={{
     height: "320px"
    }}
@@ -54,7 +54,7 @@ function Projects() {
    <a href="https://dictionary-byammar.netlify.app/" target='blank_' className='overflow-hidden'
   
    >
-   <motion.div className='border-2 rounded-xl sm:w-96 w-72 p-4 sm:mx-20 my-20'
+   <motion.div className='border-2 rounded-xl sm:w-96 w-72 p-4 sm:mx-20 my-20 select-none'
    style={{
     height: "320px"
    }}

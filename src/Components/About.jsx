@@ -35,6 +35,8 @@ function About() {
           <img src="./framermotion.png" className='w-18 h-16 p-3 select-none' />
         </motion.div>
       </div>
+      <h1 className='text-3xl sm:text-4xl text-center mt-56 mb-16 text-gray-700' >Projects that i've worked on:</h1>
+
 
     </>
   )

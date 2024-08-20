@@ -8,7 +8,7 @@ function About() {
         initial={{ opacity: 0 }}
         transition={{ duration: 1 }}
         viewport={{ amount: 1 }}
-      >Hello there! I'm <span className='text-red-500'>Ammar.</span>
+      >Hello there! I'm <span className='text-red-500'>Ammar Qayoom.</span>
         <div className="text-gray-500 text-xl block pl-1">A <span className='text-red-500'>Front-end Web developer</span> and active learner. </div>
         <div className="block text-gray-500 text-xl  pl-1">I like to build minimalist websites.</div>
         <div className="block text-gray-500 text-xl  pl-1"><img src="./location.png" className='w-3 inline' /> Jammu & Kashmir, India</div>

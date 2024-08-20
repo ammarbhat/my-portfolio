@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 function About() {
   return (
     <>
-      <motion.div className=' w-full h-screen text-6xl text-left md:p-48 sm:20 p-12 pt-36 font-medium text-gray-800'
+      <motion.div className=' w-full h-screen text-6xl text-left md:p-48 sm:20 p-12 mt-40 font-medium text-gray-800'
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}
         transition={{ duration: 1 }}
@@ -15,12 +15,12 @@ function About() {
 
       </motion.div>
       <div className='w-auto  flex flex-col items-center overflow-hidden'>
-        <motion.div className='text-gray-700  mx-36 bg-white rounded-xl w-96 sm:w-auto border-2 p-10'
+        <motion.div className='text-gray-700  mx-36 bg-white rounded-xl w-96 sm:w-auto leading-8 tracking-wider font-lg p-10 sm:mx-20 border-neutral-400'
           whileInView={{ opacity: 1 }}
           initial={{ opacity: 0 }}
           transition={{ duration: 1 }}
-        >I'm an accomplished web developer proficient in a range of technologies. With expertise in HTML, CSS, and JavaScript, I have the foundation to build stylish and interactive web pages. I also specialize in React, a powerful library that enables me to create dynamic and scalable applications. To enhance user experiences, I utilize Tailwind CSS, a utility-first framework known for its flexibility and rapid development capabilities. Additionally, I incorporate Framer Motion to bring websites to life through captivating animations. I'm passionate about crafting visually appealing and functional websites that leave a lasting impression. Let's collaborate and bring your digital vision to reality!</motion.div>
-        <motion.div className='  rounded-xl border-2 mx-20 mt-12 bg-white flex w-auto flex-wrap sm:flex-row items-center justify-center'
+        >I'm an accomplished web developer proficient in a range of technologies. With expertise in HTML, CSS, and JavaScript. I also specialize in React, a powerful library that enables me to create dynamic and scalable applications. To enhance user experiences, I utilize Tailwind CSS, a utility-first framework known for its flexibility and rapid development capabilities. Additionally, I incorporate Framer Motion to bring websites to life through captivating animations. I'm passionate about crafting visually appealing and functional websites that leave a lasting impression.</motion.div>
+        <motion.div className='  rounded-xl border-2 mx-20 mt-12 bg-white flex w-auto flex-wrap sm:flex-row items-center justify-center border-neutral-400'
           whileInView={{ x: 0 }}
           initial={{ x: 150 }}
           transition={{ duration: 1 }}

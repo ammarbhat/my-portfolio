@@ -30,5 +30,14 @@ export default [
             framerMotion: false
         }
 
+    },{
+        link: "https://ridehub-byfurkan.netlify.app",
+        img: "./ridehub.png",
+        title: "A vehicle rental site",
+        frameWorks: {
+            react: true,
+            tailwind: true,
+            framerMotion: false,
+        }
     }
 ]
